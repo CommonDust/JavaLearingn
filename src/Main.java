@@ -5,7 +5,10 @@ public class Main {
         int a = 5;
         int b = 3;
         int c = 7;
+        Coche miCoche = new Coche();
+        miCoche.puertas();
 
+        System.out.println(miCoche.nroPuertas);
         System.out.println(restar(a,b,c));
     }
 
